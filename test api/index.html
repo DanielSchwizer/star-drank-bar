@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
-<script src="./test.js"></script>
+    <link rel="stylesheet" href="./assets/CSS/carousel-style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section id="bebidas" class="bebidas">
+        <section class="carousel-wrapper">
+          <button class="carousel-arrow" id="carousel-arrow-prev">
+            &#8249;
+          </button>
+          <button class="carousel-arrow" id="carousel-arrow-next">
+            &#8250;
+          </button>
+          <ul class="carousel-container" id="carousel-container">
+            <li class="cocktail-card">
+              <h1 class="cocktail-card__name">Nuestros cocteles</h1>
+              <div class="cocktail-card__div">
+                <img
+                  src="./assets/IMG/carta-bebidas.jpg"
+                  class="cocktail-card__img"
+                  alt="carta de debidas"
+                />
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <script type="module" src="./JS/views/carousel.js"></script>
 </html>
