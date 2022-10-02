@@ -4,30 +4,34 @@
         <title>Reserva</title>
     </head>
     <body>
-        <p>Por favor, complete este formulario para realizar la reserva.</p>
-        <legend>Datos de reserva</legend>
+        <h1>Por favor, complete este formulario para realizar la reserva.</h1>
+        <legend><h2>Datos de reserva</h2></legend>
         <fieldset>
+            <h3>
             <form action="contacto.html">
                 <label>Nombre</label>
-                <input />
+                <input required />
                 <label>Apellido</label>
-                <input />
+                <input required />
                 <br />
                 <label>Correo</label>
-                <input type="email"/>
+                <input type="email" required />
                 <label>Telefono</label>
-                <input />
+                <input required/>
                 <br />
                 <label>Cantidad de personas</label>
-                <input />
+                <input type="number" required />
                 <br />
+                <label>Fecha</label>
+                <input type="date" required />
                 <label>Horario</label>
-                <input />
+                <input type="time" min="18:00" max="23:59" required />
                 <br />
                 <label>Comentarios</label>
                 <textarea></textarea>
-                <button>Aceptar</button>
+                <button>RESERVAR</button>
             </form>
+            </h3>
         </fieldset>
     </body>
 </html>
