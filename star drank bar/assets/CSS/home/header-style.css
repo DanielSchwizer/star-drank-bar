@@ -1,0 +1,20 @@
+header{
+    height: 20%;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 2rem;
+}
+
+.button-link{
+    background-color: #000922;
+    border: 0.5px solid #905A81;
+    border-radius: 4px;
+    color: #EAB5D1;
+    font-size: medium;
+    width: 7rem;
+    height: 3rem;
+}

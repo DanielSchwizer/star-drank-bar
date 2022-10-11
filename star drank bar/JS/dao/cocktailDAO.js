@@ -21,13 +21,8 @@ export function getCocteles() {
 }
 
 function createCocktail(data) {
-  /* data.drinks.forEach(drink => {
-        var cocktail = new Cocktail(drink.idDrink, drink.strDrinkThumb, drink.strDrink)
-        console.log(cocktail);
-    });*/
-  //cocktails = [] ;
   var drink;
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 100; i++) {
     var drink = new Cocktail(
       data.drinks[i].idDrink,
       data.drinks[i].strDrinkThumb,
