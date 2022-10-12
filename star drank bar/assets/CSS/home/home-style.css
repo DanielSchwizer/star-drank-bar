@@ -1,7 +1,6 @@
 @import "../reset.css";
 @import "../loader-style.css";
-@import "./home-body-style.css";
-@import "./header-style.css";
+@import "../body-style.css";
+@import "../header-style.css";
 @import "./main-style.css";
 @import "./modal-style.css";
-@import "../footer-style.css";

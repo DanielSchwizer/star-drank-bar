@@ -5,17 +5,28 @@ main{
 
 .logo-container{
     text-align:center;
-    margin: 1rem 0 3rem 0;
+    margin: 3rem 0 4.5rem 0;
+}
+
+.logo-img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.button-container{
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
 }
 
 .links-container{
     text-align: center;
 }
 
-.icon-link{
-    margin: 0 1rem 0 0;
+.link-img{
+    width: 2rem;
+    transition: 0.5s all;
 }
 
-.link-img{
-    width: 4rem;
+.link-img:hover{
+    transform: scale(1.2);
 }

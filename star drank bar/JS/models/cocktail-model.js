@@ -1,3 +1,8 @@
+/**
+ * clase cocktail
+ * se instancia en cocktailDAO para crear un objeto del tipo cocktail
+ */
+
 export class Cocktail {
   #id;
   #img;
@@ -7,6 +12,7 @@ export class Cocktail {
     this.#img = img;
     this.#name = name;
   }
+  //getters y setters
   getId() {
     return this.#id;
   }

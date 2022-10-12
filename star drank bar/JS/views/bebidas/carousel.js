@@ -1,5 +1,5 @@
 import { getCocteles } from "../../dao/cocktailDAO.js";
-getCocteles();
+window.onload = getCocteles();
 const slidesContainer = document.getElementById("carousel-container");
 const prevButton = document.getElementById("carousel-arrow-prev");
 const nextButton = document.getElementById("carousel-arrow-next");

@@ -1,29 +1,60 @@
 .carousel-wrapper {
   margin: 1rem;
   position: relative;
+  left: calc(100% - 95%);
   overflow: hidden;
+  width: 90%;
 }
 
 .carousel-container {
-  height: calc(100vh - 2rem);
+  background-image: url("../../IMG/wp11133596.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 60%;
   width: 100%;
   display: flex;
-  overflow: scroll;
+  overflow-x: scroll;
   scroll-behavior: smooth;
   list-style: none;
-  margin: 0;
+  margin: none;
   padding: 0;
 }
 
+.carousel-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.carousel-container::-webkit-scrollbar-track {
+  background: #000922;
+  border:1px solid #c9ada7;
+}
+
+.carousel-container::-webkit-scrollbar-thumb {
+  background-color: #c9ada7;
+  border-radius: 20px;
+}
+
+.cocktail-card__name {
+  color: #d4bcb6;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  text-decoration: underline;
+  margin: 1rem 0 1rem 0;
+}
+
 .carousel-arrow {
+  color: #000922;
   position: absolute;
   display: flex;
   top: 0;
   bottom: 0;
   margin: auto;
   height: 4rem;
-  background-color: gray;
-  border: none;
+  background-color: #c9ada7;
+  border: 1px solid #c9ada7;
   width: 2rem;
   font-size: 3rem;
   padding: 0;
@@ -55,16 +86,14 @@
   flex: 1 0 100%;
 }
 
-.cocktail-card__name {
-  text-align: center;
-}
-
 .cocktail-card__div {
   text-align: center;
 }
 
 .cocktail-card__img {
-  width: 30%;
-  height: 50%;
+  border: 1px solid #c9ada7;
+  margin-bottom: 1rem;
+  width: 15rem;
+  height: auto;
   text-align: center;
 }
