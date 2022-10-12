@@ -1,0 +1,167 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: PromptTitulos;
+    src: url(assets/Prompt/Prompt-Black.ttf);
+}
+
+@font-face {
+    font-family: PromptTextos;
+    src: url(assets/Prompt/Prompt-Light.ttf);
+}
+
+@font-face {
+    font-family: PromptFooter;
+    src: url(assets/Prompt/Prompt-Thin.ttf);
+}
+
+@font-face {
+    font-family: PromptFooter1;
+    src: url(assets/Prompt/Prompt-ExtraLight.ttf);
+}
+
+body{
+    font-family: PromptTitulos;
+    margin: 0;
+}
+
+
+/* INICIO DE HEADER*/
+header{
+    width: 100%;
+    height: 650px;
+    background: #042275a1;
+    background: -webkit-linear-gradient(to right, #04227583, #905a8194), url(./assets/starry-sky-2051448_960_720.jpg);  
+    background: linear-gradient(to right, #04227583, #905a8194), url(./assets/starry-sky-2051448_960_720.jpg);  
+    background-size:cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: center;
+    padding: 30px;
+    font-family: PromptTextos;
+}
+
+nav > a{
+    color:#C9ADA7;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline;
+    padding: 5px 40px;
+}
+
+nav > a:hover{
+    text-decoration: none;
+    color:#905a81;
+}
+
+.texto-bienvenida  h1{
+    color:#C9ADA7;
+    font-size:90px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+h3{
+    color:#C9ADA7;
+    text-align: center;
+    font-family: PromptTextos; 
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* FIN DE HEADER*/
+
+
+/*INICIO DE ESPECIAL*/
+#especial .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#especial .texto{
+    font-family: PromptTextos;
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#especial h2{
+    font-family: PromptTitulos;
+    margin-top: 0px;
+}
+
+#especial .img-container{
+    background-image: url("assets/pexels-dima-valkov-2795026.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    width: 250px; 
+    border-radius: 5%;
+
+}
+
+#especial .color-acento{ color:#905a81; }
+
+/*FIN DE ESPECIAL*/
+
+
+/*FOOTER*/
+footer{
+    background:#905a81;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+}
+
+.content-foo{
+    font-family: PromptFooter;
+    text-align: center;
+}
+
+.content-foo h4{
+    color: white;
+    border-bottom: 3px solid floralwhite;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p{
+    color: rgb(255, 252, 252);
+}
+
+.titulo-final{
+    font-family: PromptFooter1;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
+/*FIN FOOTER*/
