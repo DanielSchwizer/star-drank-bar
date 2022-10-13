@@ -1,0 +1,21 @@
+.text {
+    color: #C9ADA7;
+    position: absolute;
+    height: 100%;
+    width: 45%;
+    align-items: center;
+    top: 25%;
+    left: 27.3%;
+}
+
+.block {
+    color: #C9ADA7;
+    background-color: #000922;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    opacity: 0.85;
+    margin: auto;
+}
+
+
