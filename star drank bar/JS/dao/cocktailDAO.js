@@ -15,6 +15,7 @@ export function getCocteles() {
     response
       .json()
       .then((data) => {
+        console.log(data);
         createCocktail(data);
       })
       .catch(function (err) {

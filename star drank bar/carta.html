@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bebidas</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/CSS/carta/carta-style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/CSS/carta/carta-style.css" />
   </head>
   <body>
     <header>
@@ -40,10 +43,64 @@
           </ul>
         </section>
       </section>
+      <div class="wave" style="height: 150px; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.99 C150.00,150.00 349.21,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #ffffff"
+          ></path>
+        </svg>
+      </div>
+      <section id="especial">
+        <div class="container">
+          <div class="img-container"></div>
+          <div class="texto">
+            <h2>
+              Especial de la semana:
+              <span class="color-acento">MOJITO GALÁCTICO</span>
+            </h2>
+            <br />
+            <p>
+              - Poner 5 uvas cortadas por la mitad y 10 hojas de menta en un
+              vaso sling. <br />
+              - Añadir 2 cucharadas de cóctel de azúcar granulado y triturarlo
+              <br />
+              - Llenar el vaso sling hasta arriba de hielo picado <br />
+              - Verter 15 ml de jugo de limoón y 50 ml de ron blanco <br />
+              - Llenar el vaso sling hasta arriba de hielo picado <br />
+              - Acabar de llenarlo con agua con gas y removerlo suavemente
+              <br />
+              - Acabar de llenarlo con hielo picado <br />
+              - Decorarlo con gajos de limones y una ramita de menta <br />
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-      <h3>ejemplo</h3>
-      <img class="footer__img" src="./assets/IMG/cocktail-drink-quote-label-by-Vexels.png" alt="">
+    <footer>
+      <section id="footer">
+        <div class="contenedor-footer">
+          <div class="content-foo">
+            <h4>Sucursal Recoleta</h4>
+            <p>Junín 1100</p>
+          </div>
+          <div class="content-foo">
+            <h4>Sucursal Belgrano</h4>
+            <p>Montañeses 2121</p>
+          </div>
+          <div class="content-foo">
+            <h4>Sucursal Palermo</h4>
+            <p>Juncal 4000</p>
+          </div>
+        </div>
+      </section>
+      <h2 class="titulo-final">
+        &copy; Codo a codo 2.0 | Cecilia, Daniel y Belén
+      </h2>
     </footer>
   </body>
   <script type="module" src="./JS/views/bebidas/carousel.js"></script>

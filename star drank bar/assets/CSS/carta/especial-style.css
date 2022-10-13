@@ -1,0 +1,41 @@
+.wave{
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+#especial .container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#especial .texto {
+  font-family: PromptTextos;
+  width: 50%;
+  max-width: 600px;
+  text-align: initial;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#especial h2 {
+  font-family: PromptTitulos;
+  margin-top: 0px;
+}
+
+#especial .img-container {
+  background-image: url("../../IMG/coctel.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+  width: 250px;
+  border-radius: 5%;
+}
+
+#especial .color-acento {
+  color: #905a81;
+}
