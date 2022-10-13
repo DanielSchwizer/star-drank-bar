@@ -1,0 +1,16 @@
+.footer{
+    background-color: #000922;
+    border:1px solid #C9ADA7; 
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h3{
+    color: #EAB5D1;
+    font-size: 1.4rem;
+}
+
+.footer__img{
+    width: 7rem;
+    height: 5rem;
+}
