@@ -4,6 +4,7 @@
   left: calc(100% - 95%);
   overflow: hidden;
   width: 90%;
+  margin-bottom: 2rem;
 }
 
 .carousel-container {
