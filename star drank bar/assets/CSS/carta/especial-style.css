@@ -1,18 +1,27 @@
 .wave{
-    position: absolute;
-    bottom: -24rem;
+    fill: #000922;
+    opacity: 0.85;
+    overflow: hidden;
+    height: 10rem;
     width: 100%;
+}
+
+.wave svg{
+  width: 100%;
+  height:100%;
 }
 
 #especial .container {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  margin-bottom: 10px;
+  background-color: #000922;
+  opacity: 0.85;
 }
 
 #especial .texto {
-  font-family: PromptTextos;
+ 
+  color: #C9ADA7;
   width: 50%;
   max-width: 600px;
   text-align: initial;
@@ -23,8 +32,18 @@
 }
 
 #especial h2 {
-  font-family: PromptTitulos;
-  margin-top: 0px;
+  font-family: 'Prompt', sans-serif;
+}
+
+#especial h3{
+  font-family: 'Prompt', sans-serif;
+  text-decoration: underline;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+#especial li{
+  font-family: 'Prompt', sans-serif;
+  margin: 0.5rem 0 0.5rem 0;
 }
 
 #especial .img-container {
@@ -34,6 +53,7 @@
   height: 350px;
   width: 250px;
   border-radius: 5%;
+  border: 1px solid #C9ADA7;
 }
 
 #especial .color-acento {
