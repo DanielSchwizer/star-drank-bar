@@ -15,7 +15,7 @@ footer {
 }
 
 .content-foo {
-  font-family: PromptFooter;
+  font-family: 'Prompt', sans-serif;
   text-align: center;
 }
 
@@ -30,10 +30,30 @@ footer {
   color: rgb(255, 252, 252);
 }
 
+.content-foo img{
+  width: 2rem;
+  margin-right: 0.5rem;
+  transition: 0.5 all;
+}
+
+.content-foo img:hover{
+  transform: scale(1.2);
+}
+
 .titulo-final {
-  font-family: PromptFooter1;
+  font-family: 'Prompt', sans-serif;
   text-align: center;
   font-size: 12px;
   margin: 20px 0 0 0;
   color: #ffffff;
+}
+
+@media(max-width:640px){
+  .contenedor-footer{
+    flex-direction: column;
+  }
+
+  .content-foo{
+    margin-bottom: 1rem;
+  }
 }
