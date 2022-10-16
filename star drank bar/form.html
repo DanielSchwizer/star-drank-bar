@@ -14,64 +14,65 @@
     <nav class="nav-container">
       <a href="#"><button class="button-link">¿Quienes Somos?</button></a>
       <a href="./index.html"><button class="button-link">home</button></a>
-      <a href="./form.html"><button class="button-link">Reservas</button></a>
+      <a href="./carta.html"><button class="button-link">Bebidas</button></a>
     </nav>
     <hr>
   </header>
   <main>
-    <div class="text">
+    <fieldset class="fieldset-text">
       <h1>Por favor, complete este formulario para realizar la reserva.</h1>
-      <fieldset>
-        <h3>
-          <form>
-            <ul class="flex-outer">
-              <li>
-                <label for="first-name">Nombre</label>
-                <input required type="text" id="first-name" placeholder="Ingresá tu Nombre aqui">
-              </li>
-              <li>
-                <label for="last-name">Apellido</label>
-                <input required type="text" id="last-name" placeholder="Ingresá tu Apellido aqui">
-              </li>
-              <li>
-                <label for="email">Email</label>
-                <input required type="email" id="email" placeholder="Ingresá tu email aqui">
-              </li>
-              <li>
-                <label for="phone">Telefono</label>
-                <input required type="tel" id="phone" placeholder="Ingresá tu telefono aqui">
-              </li>
-              <li>
-                <label for="message">Comentario</label>
-                <textarea rows="6" id="message" placeholder="Ingresa tu comentario aqui"></textarea>
-              </li>
-              <li>
-                <p>Cantidad de personas</p>
-                <ul class="flex-inner">
-                  <li>
-                    <input type="checkbox" id="una-a-dos-personas">
-                    <label for="una-a-dos-personas">1-2</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="tres-a-cuatro-personas">
-                    <label for="tres-a-cuatro-personas">3-4</label>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="cinco-o-más">
-                    <label for="cinco-o-más">5+</label>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <button type="submit" class="reserva-boton">Reservar</button>
-              </li>
-            </ul>
-          </form>
-        </h3>
-      </fieldset>
-    </div>
+      <h3>
+        <form class="form-text">
+          <ul class="flex-outer">
+            <li>
+              <label for="first-name">Nombre</label>
+              <input required type="text" id="first-name" placeholder="Ingresá tu Nombre aqui">
+            </li>
+            <li>
+              <label for="last-name">Apellido</label>
+              <input required type="text" id="last-name" placeholder="Ingresá tu Apellido aqui">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input required type="email" id="email" placeholder="Ingresá tu email aqui">
+            </li>
+            <li>
+              <label for="phone">Telefono</label>
+              <input required type="tel" id="phone" placeholder="Ingresá tu telefono aqui">
+            </li>
+            <li>
+              <label for="message">Comentario</label>
+              <textarea rows="6" id="message" placeholder="Ingresa tu comentario aqui"></textarea>
+            </li>
+            <li>
+              <p>Cantidad de personas</p>
+              <ul class="flex-inner">
+                <li>
+                  <input type="checkbox" id="una-a-dos-personas">
+                  <label for="una-a-dos-personas">1-2</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="tres-a-cuatro-personas">
+                  <label for="tres-a-cuatro-personas">3-4</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="cinco-a-seis-personas">
+                  <label for="cinco-a-seis-personas">5-6</label>
+                </li>
+                <li>
+                  <input class="masdecinco" placeholder="Cantidad de pers...">
+                </li>
+              </ul>
+            </li>
+            <li>
+              <button type="submit" class="reserva-boton">Reservar</button>
+            </li>
+          </ul>
+        </form>
+      </h3>
+    </fieldset>
   </main>
-  <!--<footer>
+  <footer class="footer">
     <section id="footer">
       <div class="contenedor-footer">
         <div class="content-foo">
@@ -88,11 +89,9 @@
         </div>
       </div>
     </section>
-    <h2 class="titulo-final">
-      &copy; Codo a codo 2.0 | Cecilia, Daniel y Belén
-    </h2>
-  </footer>!-->
 
+
+  </footer>
 </body>
 
 </html>

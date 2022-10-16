@@ -1,15 +1,17 @@
-.text {
+.fieldset-text {
     color: #C9ADA7;
     height: 100%;
-    width: 45%;
-    top: 25%;
-    left: 27.3%;
+    width: 40%;
     background-color:hsla(223, 100%, 7%, 0.7);
+    margin-bottom: 10rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
 }
 
-.text h1 {
-  opacity: none;
+.form-text {
+  border: 2px solid #C9ADA7;
 }
+
 
 .flex-outer li,
 .flex-inner {
@@ -41,11 +43,23 @@
     font-family: 'Prompt', sans-serif;
     font-size: medium;
     transition: 0.5s;
+    margin-right: 1rem;
 }
 
-.reserva-boton:hover{
+.flex-outer li button:hover {
     background-color:#000922;
     color: #C9ADA7;
     font-weight: bolder;
 }
+
+.flex-inner li{
+  width: 105px;
+}
+
+.masdecinco {
+  width: 120px;
+}
+
+
+
 
