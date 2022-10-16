@@ -58,7 +58,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .wave{
+  .wave {
     display: none;
   }
   #especial h2 {
@@ -68,11 +68,10 @@
     font-size: 0.8rem;
     line-height: 20px;
   }
-
 }
 
-@media screen and (max-width:1023) and (min-width: 767){
-    .wave{
-      display: none;
-    }
+@media screen and (max-width:1023px) and (min-width:767px){
+  .wave {
+    display: none;
+  }
 }
