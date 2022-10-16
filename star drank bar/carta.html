@@ -1,50 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bebidas</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/CSS/carta/carta-style.css"/>
-  </head>
-  <body>
-    <header>
-      <nav class="nav-container">
-        <a href="#"><button class="button-link">¿Quienes Somos?</button></a>
-        <a href="./index.html"><button class="button-link">home</button></a>
-        <a href="./form.html"><button class="button-link">Reservas</button></a>
-      </nav>
-    </header>
-    <main>
-      <section id="bebidas" class="bebidas">
-        <section class="carousel-wrapper">
-          <button class="carousel-arrow" id="carousel-arrow-prev">
-            &#8249;
-          </button>
-          <button class="carousel-arrow" id="carousel-arrow-next">
-            &#8250;
-          </button>
-          <ul class="carousel-container" id="carousel-container">
-            <li class="cocktail-card">
-              <h1 class="cocktail-card__name">Nuestros cocteles</h1>
-              <div class="cocktail-card__div">
-                <img
-                  src="./assets/IMG/carta.png"
-                  class="cocktail-card__img"
-                  alt="carta de debidas"
-                />
-              </div>
-            </li>
-          </ul>
-        </section>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bebidas</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/CSS/carta/carta-style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="#"><button class="button-link">¿Quienes Somos?</button></a>
+      <a href="./index.html"><button class="button-link">home</button></a>
+      <a href="./form.html"><button class="button-link">Reservas</button></a>
+    </nav>
+    <hr>
+  </header>
+  <main>
+    <section id="bebidas" class="bebidas">
+      <section class="carousel-wrapper">
+        <button class="carousel-arrow" id="carousel-arrow-prev">
+          &#8249;
+        </button>
+        <button class="carousel-arrow" id="carousel-arrow-next">
+          &#8250;
+        </button>
+        <ul class="carousel-container" id="carousel-container">
+          <li class="cocktail-card">
+            <h1 class="cocktail-card__name">Nuestros cocteles</h1>
+            <div class="cocktail-card__div">
+              <img src="./assets/IMG/carta.png" class="cocktail-card__img" alt="carta de debidas" />
+            </div>
+          </li>
+        </ul>
       </section>
-    </main>
-    <footer class="footer">
-      <h3>ejemplo</h3>
-      <img class="footer__img" src="./assets/IMG/cocktail-drink-quote-label-by-Vexels.png" alt="">
-    </footer>
-  </body>
-  <script type="module" src="./JS/views/bebidas/carousel.js"></script>
+    </section>
+  </main>
+  <footer class="footer">
+    <section id="footer">
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Sucursal Recoleta</h4>
+          <p>Junín 1100</p>
+        </div>
+        <div class="content-foo">
+          <h4>Sucursal Belgrano</h4>
+          <p>Montañeses 2121</p>
+        </div>
+        <div class="content-foo">
+          <h4>Sucursal Palermo</h4>
+          <p>Juncal 4000</p>
+        </div>
+      </div>
+    </section>
+    <h2 class="titulo-final">
+      &copy; Codo a codo 2.0 | Cecilia, Daniel y Belén
+    </h2>
+  </footer>
+</body>
+<script type="module" src="./JS/views/bebidas/carousel.js"></script>
+
 </html>
