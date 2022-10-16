@@ -1,17 +1,60 @@
+main {
+  text-align: center;
+  margin: 5rem 20rem 5rem 20rem;
+}
 .fieldset-text {
     color: #C9ADA7;
     height: 100%;
-    width: 40%;
+    width: 100%;
     background-color:hsla(223, 100%, 7%, 0.7);
     margin-bottom: 10rem;
     font-family: 'Prompt', sans-serif;
-    font-size: medium;
+    font-size: medium;   
+}
+
+.form-title {
+  margin-top: 3rem;
+  font-size: 1.5rem;
 }
 
 .form-text {
-  border: 2px solid #C9ADA7;
+  margin: 3rem 10rem 5rem 10rem;
 }
 
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
 
 .flex-outer li,
 .flex-inner {
@@ -53,7 +96,7 @@
 }
 
 .flex-inner li{
-  width: 105px;
+  width: 120px;
 }
 
 .masdecinco {
