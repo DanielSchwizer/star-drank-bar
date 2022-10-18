@@ -1,13 +1,14 @@
 .carousel-wrapper {
   margin: 1rem;
   position: relative;
-  left: calc(100% - 95%);
+  left: 4%;
   overflow: hidden;
   width: 90%;
+  margin-bottom: 4rem;
 }
 
 .carousel-container {
-  background-image: url("../../IMG/wp11133596.png");
+  background-image: url("../../IMG/cantina.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -96,4 +97,17 @@
   width: 15rem;
   height: auto;
   text-align: center;
+}
+
+@media(max-width: 640px){
+  .carousel-wrapper{
+    width: 85%;
+    left: 3%;
+  }
+}
+
+@media screen and (max-width:1023px) and (min-width:767px){
+  .carousel-wrapper{
+    left: 3%;
+  }
 }
