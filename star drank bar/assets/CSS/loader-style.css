@@ -1,0 +1,66 @@
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("https://i.gifer.com/fy90.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  clip-path: circle(100% at 50% 50%);
+  transition: 3s ease-in-out clip-path;
+}
+
+.loading2 {
+  clip-path: circle(0 at 50% 50%);
+}
+
+.loader-span {
+  color: yellow;
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+  white-space: nowrap;
+  border-right: 2px solid #fff;
+  width: 10ch;
+  animation: span 2s steps(10), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+.loading.show {
+  opacity: 1;
+}
+.loading .spin {
+  border: 3px solid hsla(185, 100%, 62%, 0.2);
+  border-top-color: #000922;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes span {
+  from {
+    width: 0%;
+  }
+  to{
+    width: 10ch;
+  }
+}
+
+@keyframes blink{
+  50% {border-color: transparent;}
+}

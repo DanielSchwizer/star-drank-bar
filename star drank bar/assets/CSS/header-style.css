@@ -1,0 +1,35 @@
+header{
+    height: 20%;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0 2rem 2;
+}
+
+hr {
+    border-bottom: 1px solid #C9ADA7;
+    border-radius: 1px;
+    width: 80%;
+}
+
+.button-link{
+    background-color: #000922;
+    border: 1px solid #C9ADA7;
+    border-radius: 4px;
+    color: #C9ADA7;
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
+    width: 11rem;
+    height: 2rem;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+
+.button-link:hover{
+    background-color:#C9ADA7;
+    color: #000922;
+    font-size: calc(100% + 10%);
+}
