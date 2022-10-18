@@ -1,76 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Reserva</title>
+    <link rel="stylesheet" href="./assets/CSS/form/form-style.css" />
+    <link rel="stylesheet" href="./assets/CSS/form/form-impstyle.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <title>Reserva</title>
-  <link rel="stylesheet" href="./assets/CSS/form/form-style.css">
-  <link rel="stylesheet" href="./assets/CSS/form/form-impstyle.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <nav class="nav-container">
-      <a href="#"><button class="button-link">¿Quienes Somos?</button></a>
-      <a href="./index.html"><button class="button-link">home</button></a>
-      <a href="./carta.html"><button class="button-link">Bebidas</button></a>
-    </nav>
-    <hr />
-  </header>
-  <main>
-    <fieldset class="fieldset-text">
-      <h1 class="form-title">Por favor, complete este formulario para realizar la reserva.</h1>
-      <h3>
-        <form class="form-text" autocomplete="off">
-          <ul class="flex-outer">
-            <li>
-              <label for="first-name">Nombre</label>
-              <input required type="text" id="first-name" placeholder="Ingresá tu Nombre aqui">
-            </li>
-            <li>
-              <label for="last-name">Apellido</label>
-              <input required type="text" id="last-name" placeholder="Ingresá tu Apellido aqui">
-            </li>
-            <li>
-              <label for="email">Email</label>
-              <input required type="email" id="email" placeholder="Ingresá tu email aqui">
-            </li>
-            <li>
-              <label for="phone">Telefono</label>
-              <input required type="tel" id="phone" placeholder="Ingresá tu telefono aqui">
-            </li>
-            <li>
-              <label for="message">Detalles de reserva</label>
-              <textarea required rows="6" id="message"
-                placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"></textarea>
-            </li>
-            <li>
-              <button type="submit" class="reserva-boton">Reservar</button>
-            </li>
-          </ul>
-        </form>
-      </h3>
-    </fieldset>
-  </main>
-  <footer>
-    <section id="footer">
-      <div class="contenedor-footer">
-        <div class="content-foo">
-          <h4>Sucursal Recoleta</h4>
-          <p>Junín 1100</p>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="#"><button class="button-link">¿Quienes Somos?</button></a>
+        <a href="./index.html"><button class="button-link">home</button></a>
+        <a href="./carta.html"><button class="button-link">Bebidas</button></a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <fieldset class="fieldset-text">
+        <h1 class="form-title">
+          Por favor, complete este formulario para realizar la reserva.
+        </h1>
+        <h3>
+          <form class="form-text" autocomplete="off">
+            <ul class="flex-outer">
+              <li>
+                <label for="first-name">Nombre</label>
+                <input
+                  required
+                  type="text"
+                  id="first-name"
+                  placeholder="Ingresá tu Nombre aqui"
+                />
+              </li>
+              <li>
+                <label for="last-name">Apellido</label>
+                <input
+                  required
+                  type="text"
+                  id="last-name"
+                  placeholder="Ingresá tu Apellido aqui"
+                />
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  required
+                  type="email"
+                  id="email"
+                  placeholder="Ingresá tu email aqui"
+                />
+              </li>
+              <li>
+                <label for="phone">Telefono</label>
+                <input
+                  required
+                  type="tel"
+                  id="phone"
+                  placeholder="Ingresá tu telefono aqui"
+                />
+              </li>
+              <li>
+                <label for="message">Detalles de reserva</label>
+                <textarea
+                  required
+                  rows="6"
+                  id="message"
+                  placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"
+                ></textarea>
+              </li>
+              <li>
+                <button type="submit" class="reserva-boton">Reservar</button>
+              </li>
+            </ul>
+          </form>
+        </h3>
+      </fieldset>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="contenedor-footer">
+          <div class="content-foo">
+            <h4>Sucursal Recoleta</h4>
+            <p>Junín 1100</p>
+          </div>
+          <div class="content-foo">
+            <h4>Sucursal Belgrano</h4>
+            <p>Montañeses 2121</p>
+          </div>
+          <div class="content-foo">
+            <img src="./assets/IMG/instagram-logo.svg" alt="instagram-logo" />
+            <img src="./assets/IMG/facebook-logo.svg" alt="facebook" />
+          </div>
         </div>
-        <div class="content-foo">
-          <h4>Sucursal Belgrano</h4>
-          <p>Montañeses 2121</p>
-        </div>
-        <div class="content-foo">
-          <img src="./assets/IMG/instagram-logo.svg" alt="instagram-logo" />
-          <img src="./assets/IMG/facebook-logo.svg" alt="facebook" />
-        </div>
-      </div>
-    </section>
-  </footer>
-</body>
-
+      </section>
+    </footer>
+  </body>
 </html>
