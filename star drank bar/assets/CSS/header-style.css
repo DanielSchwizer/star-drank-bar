@@ -6,13 +6,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 2rem 0 2rem 2;
-}
-
-hr {
-    border-bottom: 1px solid #C9ADA7;
-    border-radius: 1px;
-    width: 80%;
+    margin: 2rem 0 2rem 0;
 }
 
 .button-link{
@@ -32,4 +26,31 @@ hr {
     background-color:#C9ADA7;
     color: #000922;
     font-size: calc(100% + 10%);
+}
+
+hr {
+    border-bottom: 1px solid #C9ADA7;
+    border-radius: 1px;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+
+@media(max-width:640px){
+    .nav-container{
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .button-link{
+        width: 18rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media(min-width:1440px){
+    .button-link{
+        width:20rem;
+        font-size: larger;
+    }
 }
