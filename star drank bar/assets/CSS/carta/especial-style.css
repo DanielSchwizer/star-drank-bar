@@ -77,6 +77,6 @@
 
 @media screen and (max-width:1023px) and (min-width:767px) {
   .wave {
-      display: none;
+    display: none;
   }
 }
