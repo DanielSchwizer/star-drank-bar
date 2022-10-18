@@ -59,19 +59,19 @@
 
 @media screen and (max-width: 640px) {
   .wave {
-      display: none;
+    display: none;
   }
   #especial h2 {
-      line-height: 20px;
+    line-height: 20px;
   }
    #especial li {
-      font-size: 0.8rem;
-      line-height: 18px;
+    font-size: 0.8rem;
+    line-height: 18px;
   }
   #especial .img-container {
-      width: 25rem;
-      height: 20rem;
-   }
+    width: 25rem;
+    height: 20rem;
+  }
 }
 
 @media screen and (max-width:1023px) and (min-width:767px) {
