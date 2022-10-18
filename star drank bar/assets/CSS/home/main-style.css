@@ -1,0 +1,39 @@
+.logo-container{
+    text-align:center;
+    margin: 3rem 0 4.5rem 0;
+}
+
+.logo-img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.button-container{
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.links-container{
+    text-align: center;
+}
+
+.link-img{
+    width: 2rem;
+    transition: 0.5s all;
+}
+
+.link-img:hover{
+    transform: scale(1.2);
+}
+
+
+@media(min-width:1440px){
+    .logo-container{
+        margin: 6rem 0 5rem 0;
+    }
+    
+    .logo-img{
+        width: 29rem;
+        height: 24rem;
+    }
+}
