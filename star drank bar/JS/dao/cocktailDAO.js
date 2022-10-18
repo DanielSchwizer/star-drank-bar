@@ -26,7 +26,7 @@ export function getCocteles() {
 
 /**
  * funcion que itera la data, crea objetos del tipo cocktail y crea las cards en el DOM
- * @param {array} data
+ * @param {array} data colleccion de objetos
  */
 
 function createCocktail(data) {

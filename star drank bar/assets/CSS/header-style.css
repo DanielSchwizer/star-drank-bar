@@ -47,3 +47,10 @@ hr {
         margin-bottom: 0.5rem;
     }
 }
+
+@media(min-width:1440px){
+    .button-link{
+        width:20rem;
+        font-size: larger;
+    }
+}
