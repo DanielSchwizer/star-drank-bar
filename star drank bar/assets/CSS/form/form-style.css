@@ -14,15 +14,16 @@ main {
 
 .form-title {
   margin-top: 3rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-decoration: underline dashed 1px;
+  text-underline-offset: 0.8rem;
 }
 
 .form-text {
   margin: 3rem 10rem 5rem 10rem;
 }
 
-.flex-outer,
-.flex-inner {
+.flex-outer{
   list-style-type: none;
   padding: 0;
 }
@@ -31,16 +32,10 @@ main {
   max-width: 800px;
 }
 
-.flex-outer li,
-.flex-inner {
+.flex-outer li{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.flex-inner {
-  padding: 8px 8px;
-  justify-content: space-between;  
 }
 
 .flex-outer > li:not(:last-child) {
@@ -49,15 +44,14 @@ main {
 
 .flex-outer li label,
 .flex-outer li p {
-  padding: 8px;
+  padding: 25px;
   font-weight: 300;
-  letter-spacing: .09em;
+  letter-spacing: .10em;
   text-transform: uppercase;
-  
+  font-size: large;
 }
 
-.flex-outer li,
-.flex-inner {
+.flex-outer li{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -69,8 +63,7 @@ main {
   max-width: 200px;
 }
  
-.flex-outer > li > label + *,
-.flex-inner {
+.flex-outer > li > label + *{
   flex: 1 0 200px;
 }
 
@@ -78,10 +71,22 @@ main {
   margin: 0;
 }
 
-.flex-outer li input:not([type='checkbox']),
+.flex-outer li input,
 .flex-outer li textarea {
   padding: 10px;
   border: none;
+  background-color: rgba(255, 255, 255, 0.233);
+  font-family: 'Prompt', sans-serif;
+  font-size: larger;
+  color: #d8cdca;
+  letter-spacing: .20em;
+}
+
+::placeholder {
+  font-family: 'Prompt', sans-serif;
+  font-size: medium; 
+  color: #e4e0e28f;
+  letter-spacing: .10em;
 }
 
 .flex-outer li button {
@@ -102,10 +107,6 @@ main {
     background-color:#000922;
     color: #C9ADA7;
     font-weight: bolder;
-}
-
-.flex-inner li{
-  width: 120px;
 }
 
 .masdecinco {

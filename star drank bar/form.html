@@ -22,7 +22,7 @@
     <fieldset class="fieldset-text">
       <h1 class="form-title">Por favor, complete este formulario para realizar la reserva.</h1>
       <h3>
-        <form class="form-text">
+        <form class="form-text" autocomplete="off">
           <ul class="flex-outer">
             <li>
               <label for="first-name">Nombre</label>
@@ -41,28 +41,8 @@
               <input required type="tel" id="phone" placeholder="Ingresá tu telefono aqui">
             </li>
             <li>
-              <label for="message">Comentario</label>
-              <textarea rows="6" id="message" placeholder="Ingresa tu comentario aqui"></textarea>
-            </li>
-            <li>
-              <p>Cantidad de personas</p>
-              <ul class="flex-inner">
-                <li>
-                  <input type="checkbox" id="una-a-dos-personas">
-                  <label for="una-a-dos-personas">1-2</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="tres-a-cuatro-personas">
-                  <label for="tres-a-cuatro-personas">3-4</label>
-                </li>
-                <li>
-                  <input type="checkbox" id="cinco-a-seis-personas">
-                  <label for="cinco-a-seis-personas">5-6</label>
-                </li>
-                <li>
-                  <input class="masdecinco" placeholder="Cantidad de pers...">
-                </li>
-              </ul>
+              <label for="message">Detalles de reserva</label>
+              <textarea required rows="6" id="message" placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"></textarea>
             </li>
             <li>
               <button type="submit" class="reserva-boton">Reservar</button>
