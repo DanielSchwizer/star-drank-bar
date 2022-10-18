@@ -64,10 +64,11 @@
   #especial h2 {
     line-height: 20px;
   }
-   #especial li {
+  #especial li {
     font-size: 0.8rem;
     line-height: 18px;
   }
+  
   #especial .img-container {
     width: 25rem;
     height: 20rem;
