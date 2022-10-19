@@ -32,43 +32,61 @@
                 <label for="first-name">Nombre</label>
                 <input
                   required
+                  data-tipo="first_name"
+                  pattern="[a-zA-Z ]{1,50}"
                   type="text"
                   id="first-name"
                   placeholder="Ingresá tu Nombre aqui"
                 />
+                <div>
+                  <span class="input-message-error"
+                    >Este campo no es valido</span
+                  >
+                </div>
               </li>
               <li>
                 <label for="last-name">Apellido</label>
                 <input
                   required
+                  data-tipo="last_name"
+                  pattern="[a-zA-Z ]{1,50}"
                   type="text"
                   id="last-name"
                   placeholder="Ingresá tu Apellido aqui"
                 />
+                <span class="input-message-error">Este campo no es valido</span>
               </li>
               <li>
                 <label for="email">Email</label>
                 <input
                   required
+                  data-tipo="email"
                   type="email"
                   id="email"
                   placeholder="Ingresá tu email aqui"
                 />
+                <span class="input-message-error">Este campo no es valido</span>
               </li>
               <li>
                 <label for="phone">Telefono</label>
                 <input
                   required
+                  data-tipo="phone"
                   type="tel"
                   id="phone"
                   placeholder="Ingresá tu telefono aqui"
+                  pattern="\d{10}"
+                  minlegth="10"
+                  maxlength="10"
                 />
+                <span class="input-message-error">Este campo no es valido</span>
               </li>
               <li>
                 <label for="message">Detalles de reserva</label>
                 <textarea
-                  required
+                  class="mensaje"
                   rows="6"
+                  required
                   id="message"
                   placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"
                 ></textarea>
@@ -99,5 +117,6 @@
         </div>
       </section>
     </footer>
+    <script type="module" src="./JS/views/form/app.js"></script>
   </body>
 </html>

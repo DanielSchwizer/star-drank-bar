@@ -10,31 +10,33 @@ main {
   margin-bottom: 10rem;
   font-family: "Prompt", sans-serif;
   font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form-title {
   margin-top: 3rem;
-  font-size: 2rem;
-  text-decoration: underline dashed 1px;
-  text-underline-offset: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-decoration: underline;
 }
 
 .form-text {
-  margin: 3rem 10rem 5rem 10rem;
+  text-align: center;
 }
 
 .flex-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   list-style-type: none;
-  padding: 0;
-}
-
-.flex-outer {
   max-width: 800px;
 }
 
 .flex-outer li {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -42,44 +44,34 @@ main {
   margin-bottom: 20px;
 }
 
+.flex-outer li label {
+  width: 10rem;
+}
+
 .flex-outer li label,
 .flex-outer li p {
   padding: 25px;
   font-weight: 300;
+  line-height: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-size: large;
 }
 
-.flex-outer li {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.flex-outer > li > label,
-.flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 200px;
-}
-
-.flex-outer > li > label + * {
-  flex: 1 0 200px;
-}
-
-.flex-outer li p {
-  margin: 0;
-}
-
 .flex-outer li input,
-.flex-outer li textarea {
+.mensaje {
   padding: 10px;
   border: none;
+  width: 25rem;
   background-color: rgba(255, 255, 255, 0.233);
   font-family: "Prompt", sans-serif;
   font-size: larger;
   color: #d8cdca;
   letter-spacing: 0.2em;
+}
+
+.mensaje{
+  resize: none;
 }
 
 ::placeholder {
@@ -90,7 +82,6 @@ main {
 }
 
 .flex-outer li button {
-  margin-left: auto;
   padding: 8px 16px;
   border: none;
   background: #c9ada7;
@@ -101,14 +92,11 @@ main {
   font-family: "Prompt", sans-serif;
   font-size: medium;
   transition: 0.5s;
+  margin-bottom: 20px;
 }
 
 .flex-outer li button:hover {
   background-color: #000922;
   color: #c9ada7;
   font-weight: bolder;
-}
-
-.masdecinco {
-  width: 105px;
 }
