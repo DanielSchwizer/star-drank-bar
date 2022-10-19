@@ -1,3 +1,10 @@
+/**
+ *
+ * @param {htmlElement} input
+ * esta funcion añade o quita clases al elemento padre del input pasado por parametro
+ * dentro tambien se llama a la funcion MostrarMensajeError
+ */
+
 export function valida(input) {
   const tipoDeInput = input.dataset.tipo;
   if (input.validity.valid) {
@@ -6,12 +13,18 @@ export function valida(input) {
   } else {
     input.parentElement.classList.add("input-container--invalid");
     input.parentElement.querySelector(".input-message-error").innerHTML =
-      mostrarMensajeDeError(tipoDeInput, input);
+      mostrarMensajeError(tipoDeInput, input);
   }
 }
 
+/**
+ * array que contiene strings con el nombre de los tipos de errores
+ */
 const tipoDeErrores = ["valueMissing", "typeMismatch", "patternMismatch"];
 
+/**
+ * objetos que contienen el nombre del input y sus errores especificos
+ */
 const mensajesDeError = {
   first_name: {
     valueMissing: "El campo NOMBRE no puede estar vacío",
@@ -32,13 +45,16 @@ const mensajesDeError = {
   },
 };
 
-function mostrarMensajeDeError(tipoDeInput, input) {
+/**
+ *
+ * @param {htmlElement} tipoDeInput
+ * @param {htmlElement} input
+ * @returns {String} devuelve el mensaje del error segun el input y el tipo de error que ocurrio
+ */
+function mostrarMensajeError(tipoDeInput, input) {
   let mensaje = "";
   tipoDeErrores.forEach((error) => {
     if (input.validity[error]) {
-      console.log(tipoDeInput, error);
-      console.log(input.validity[error]);
-      console.log(mensajesDeError[tipoDeInput][error]);
       mensaje = mensajesDeError[tipoDeInput][error];
     }
   });
