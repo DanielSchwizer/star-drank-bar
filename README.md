@@ -6,9 +6,13 @@
 
 <p> el proyecto consiste en un bar con tematica espacial y de star wars, dentro del proyecto se pueden encontrar 4 paginas html(HOME, CARTA, RESERVAS, ¿QUIENES SOMOS?)</p>
 
+## contenido
+<ul>
+   <li><a href = "#resumen">Resumen<a>
+
 ### HOME(index.html)
 
-<p> el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
+<p id = "resumen"> el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
 abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los cuales en este momento no funcionan por obvias razones) y un icono de map spot, si se clickea en el icono se abrira un modal que contiene el mapa con la direccion(FICTICIA) del bar</p>
 
 
@@ -84,14 +88,14 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 <p>dentro de views hay 3 carpetas. carta, home y form, las cuales tienen archivos que se encargan de la vista de sus respectivas paginas<p>
  
-   #### home
+   ### home
    <p>dentro de esta carpeta esta el archivo modal.js que es el encargado de la vista del modal del home</p>
    
-   #### form
+   ### form
    
    <p> dentro tiene los archivos validacion y app, en validacion esta toda la logica y las reglas de la validacion del form y en app se utiliza la logica de la validacion llamando a los inputs de form.html</p>
    
-  #### carta
+  ### carta
   
   <p> dentro tiene el archivo carousel.js el cual tiene los listeners de los botones del carousel y ademas llama a la funcion getCocteles proveniente del dao en el momento que carga la pagina</p>
   
