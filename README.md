@@ -10,9 +10,9 @@
 <ul>
    <li><a href = "#resumen">Resumen<a>
 
-### HOME(index.html)
+### id = "resumen" HOME(index.html)
 
-<p id = "resumen"> el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
+<p > el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
 abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los cuales en este momento no funcionan por obvias razones) y un icono de map spot, si se clickea en el icono se abrira un modal que contiene el mapa con la direccion(FICTICIA) del bar</p>
 
 
