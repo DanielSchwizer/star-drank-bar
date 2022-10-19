@@ -18,7 +18,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 #### CAROUSEL
 
-<p> la carta tiene un carousel que tiene todos los tragos que se sirven en el bar(la cracion de las cards esta ligada al consumo de la api <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a>) en la carta hay 100 tragos para ser vistos.</p>
+<p> la carta tiene un carousel que tiene todos los tragos que se sirven en el bar(la creacion de las cards esta ligada al consumo de la api <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a>) en la carta hay 100 tragos para ser vistos.</p>
 
 #### ESPECIAL
 
@@ -26,7 +26,20 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
    
  ### RESERVAS(form.html)
   
- <p>esta es la pagina de contacto para hacer reservas en el bar, solamente cuenta con una validacion en js ya que no hay bar al cual contactarse, en cuanto al header   y al footer el funcionamiento es el mismo</p>
+<p> esta es la pagina de contacto para hacer reservas en el bar, solamente cuenta con una validacion en js ya que no hay bar al cual contactarse, en cuanto al header   y al footer el funcionamiento es el mismo</p>
+
+### ¿QUIENES SOMOS?(.html)
+
+# DISEÑO RESPONSIVE
+
+<p>el proyecto en distintas partes de sus paginas tiene distintos puntos de corte, se trataron de acaparar la mayor cantidad de pantallas, el proyecto no contempla las pantallas pequeñas como las de los dispoditivos samsumg galaxy fold y tampoco de monitores de mucha resolucion resolucion(4k)</p>
+
+## PUNTOS DE CORTE
+
+<ul>
+   <li>640px<i class="fa-regular fa-mobile"></i></li>
+ 
+ 
   
  
   
