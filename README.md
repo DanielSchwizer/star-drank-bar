@@ -1,6 +1,6 @@
 # STAR DRANK BAR
 
-# Resumen del proyecto(mas informacion de la API utilizada, el codigo, etc mas abajo)
+# Resumen del proyecto
 
 ## proyecto realizado para el TPO del codo a codo 4.0 orientacion fullstack python developer, en este proyecto se uso JS, HTML5 Y CSS3.
 
