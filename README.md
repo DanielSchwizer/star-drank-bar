@@ -38,7 +38,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 <ul>
    <li><h3>hasta 640px para celulares &#128241;</h3></li>
-   <li><h3>de 640px a 767px para celulares en verical &#128241;</h3></li>
+   <li><h3>de 640px a 767px para celulares en vertical &#128241;</h3></li>
  
  
   
