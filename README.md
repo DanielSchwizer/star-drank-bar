@@ -6,11 +6,11 @@
 
 <p> el proyecto consiste en un bar con tematica espacial y de star wars, dentro del proyecto se pueden encontrar 4 paginas html(HOME, CARTA, RESERVAS, ¿QUIENES SOMOS?)</p>
 
-## contenido
+# contenido
 <ul>
       <li><a href = "#resumen">Resumen<a></li>
       <li><a href = "#diseño">Diseño Responsive<a></li>
-      <li><a href = "#composicion">composicion del proyecto<a></li>
+      <li><a href = "#composicion">Composicion del proyecto<a></li>
       <li><a href = "#api">API<a></li>
       <li><a href = "#datos">Datos a tener en cuenta<a></li>
 
