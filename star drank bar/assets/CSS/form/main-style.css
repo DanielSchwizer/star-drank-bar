@@ -1,0 +1,148 @@
+main {
+  margin: 5rem 20rem 5rem 20rem;
+  text-align: center;
+}
+.fieldset-text {
+  color: #c9ada7;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(223, 100%, 7%, 0.7);
+  margin-bottom: 10rem;
+  font-family: "Prompt", sans-serif;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-decoration: underline;
+}
+
+.form-text {
+  text-align: center;
+}
+
+.flex-outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  max-width: 800px;
+}
+
+.flex-outer li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label {
+  width: 10rem;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 25px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: large;
+}
+
+.flex-outer li input,
+.mensaje {
+  padding: 10px;
+  border: none;
+  width: 25rem;
+  margin: 0 1rem 0 1rem;
+  background-color: rgba(255, 255, 255, 0.233);
+  font-family: "Prompt", sans-serif;
+  font-size: larger;
+  color: #d8cdca;
+  letter-spacing: 0.2em;
+}
+
+.mensaje {
+  resize: none;
+}
+
+::placeholder {
+  font-family: "Prompt", sans-serif;
+  font-size: medium;
+  color: #e4e0e28f;
+  letter-spacing: 0.1em;
+}
+
+.flex-outer li button {
+  padding: 8px 16px;
+  border: none;
+  background: #c9ada7;
+  color: #000922;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  font-family: "Prompt", sans-serif;
+  font-size: medium;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.flex-outer li button:hover {
+  background-color: #000922;
+  color: #c9ada7;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 640px) {
+  main {
+    margin: 5rem 2rem 5rem 2rem;
+  }
+
+  .form-title {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .flex-outer li label,
+  .flex-outer li p {
+    font-size: small;
+  }
+
+  .flex-outer li input,
+  .mensaje {
+    width: 12rem;
+    font-size: medium;
+  }
+
+  ::placeholder {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 640px) {
+  main {
+    margin: 5rem 2rem 5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 767px) {
+  main {
+    margin: 5rem 2rem 5rem 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .flex-outer li input,
+  .mensaje {
+    width: 30rem;
+  }
+}

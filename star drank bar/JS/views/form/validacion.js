@@ -14,20 +14,20 @@ const tipoDeErrores = ["valueMissing", "typeMismatch", "patternMismatch"];
 
 const mensajesDeError = {
   first_name: {
-    valueMissing: "El campo nombre no puede estar vacío",
-    patternMismatch: "el campo nombre solo acepta letras",
+    valueMissing: "El campo NOMBRE no puede estar vacío",
+    patternMismatch: "el campo NOMBRE solo acepta letras",
   },
   last_name: {
-    valueMissing: "el campo apellido no puede estar vacio",
-    patternMismatch: "el campo apellido solo acepta letras",
+    valueMissing: "el campo APELLIDO no puede estar vacio",
+    patternMismatch: "el campo APELLIDO solo acepta letras",
   },
   email: {
-    valueMissing: "El campo correo no puede estar vacío",
+    valueMissing: "El campo CORREO no puede estar vacío",
     typeMismatch: "El correo no es válido",
   },
 
   phone: {
-    valueMissing: "Este campo no puede estar vacío",
+    valueMissing: "El campo TELEFONO no puede estar vacío",
     patternMismatch: "El formato requerido es XXXXXXXXXX 10 números",
   },
 };
