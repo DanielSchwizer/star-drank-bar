@@ -72,15 +72,15 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 <p>en este proyecto se decidio tratar de aplicar un patron de diseño MVC por eso dentro de JS tenemos 3 carpetas, dao(controller), models(modelo), views(vista)</p>
 
-###models
+### models
 
 <p>dentro de models tenemos el archivo cocktail-model, que tiene la clase(modelo de objeto) de un coctel la clase Cocktail se instancia en el controller</p>
 
-###dao
+### dao
 
 <p>dentro de dao esta el archivo cocktailDAO, es el que tiene la responsabilidad de consumir los datos de la api, crear una instancia del objeto coctel y ademas crear la card que se va a utilizar dentro del carousel en carta.html, sus funciones estan documentadas dentro del archivo</p>
 
-###views
+### views
 
 <p>dentro de views hay 3 carpetas. carta, home y form, las cuales tienen archivos que se encargan de la vista de sus respectivas paginas<p>
  
