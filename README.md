@@ -37,7 +37,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 ## PUNTOS DE CORTE
 
 <ul>
-   <li>640px &#128241;</li>
+   <li>hasta 640px ### &#128241;</li>
  
  
   
