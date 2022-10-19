@@ -42,6 +42,71 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
    <li><h3>de 767px hasta 1023 para tablets</h3></li>
    <li><h3>mas de 1440px para monitores y laptops large 💻</h3></li>
 </h3>
+
+# COMPOSICION DEL PROYECTO
+
+<p>como ya se menciono antes el proyecto tiene 4 paginas html que se encuentran en la carpeta principal del repositorio</p>
+
+<ul>
+   <li>index.html</li>
+   <li>carta.html</li>
+   <li>form.html</li>
+   <li>.html</li>
+</ul>
+
+<p>ademas se encuentran las carpetas JS y assets</p>
+
+## assets
+
+<p>dentro de esta carpeta estan la carpeta CSS Y IMG</p>
+
+### CSS
+
+<p>dentro de CSS estan todos los estilos de las paginas, esta todo modularizado en archivos css que tienen el mismo nombre que el componente al que le estan dando estilo, tambien hay carpetas con los nombres de las paginas, cuyos archivos dentro son los que le dan estilo a sus respectivas paginas(los archivos que estan fuera de carpetas de paginas son aquellos que estan en todas las paginas, por ejemplo el header o el footer), el reset.css es algo que sera explicado mas abajo</p>
+
+### IMG
+
+<p>carpeta que tiene todas las imagenes utilizadas en el proyecto</p>
+
+## JS
+
+<p>en este proyecto se decidio tratar de aplicar un patron de diseño MVC por eso dentro de JS tenemos 3 carpetas, dao(controller), models(modelo), views(vista)</p>
+
+###models
+
+<p>dentro de models tenemos el archivo cocktail-model, que tiene la clase(modelo de objeto) de un coctel la clase Cocktail se instancia en el controller</p>
+
+###dao
+
+<p>dentro de dao esta el archivo cocktailDAO, es el que tiene la responsabilidad de consumir los datos de la api, crear una instancia del objeto coctel y ademas crear la card que se va a utilizar dentro del carousel en carta.html, sus funciones estan documentadas dentro del archivo</p>
+
+###views
+
+<p>dentro de views hay 3 carpetas. carta, home y form, las cuales tienen archivos que se encargan de la vista de sus respectivas paginas<p>
+ 
+   #### home
+   <p>dentro de esta carpeta esta el archivo modal.js que es el encargado de la vista del modal del home</p>
+   
+   #### form
+   
+   <p> dentro tiene los archivos validacion y app, en validacion esta toda la logica y las reglas de la validacion del form y en app se utiliza la logica de la validacion llamando a los inputs de form.html</p>
+   
+  #### carta
+  
+  <p> dentro tiene el archivo carousel.js el cual tiene los listeners de los botones del carousel y ademas llama a la funcion getCocteles proveniente del dao en el momento que carga la pagina</p>
+  
+  # API
+  
+ pp> la api utilizada es  <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a> mas precisamente https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail la cual trae como respuesta los cocteles filtrados por categoria en formato json </p>
+ 
+ 
+ # DATOS A TENER EN CUENTA
+ <ul>
+   <li>el reset.css se saco de https://meyerweb.com/eric/tools/css/reset/ este archivo se utiliza para eliminar todas las propiedades que vienen por defecto en los navegadores</li>
+   <li> la fuente utilizada en el proyecto es la Prompt de google fonts https://fonts.google.com/specimen/Prompt?preview.text=star%20drank%20bar&preview.text_type=custom</li>
+   <li> los botones del header, home, form y los iconos, tienen transiciones y transformaciones</li>
+  
+  
  
  
   
