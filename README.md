@@ -16,11 +16,11 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 <p> la carta es la pagina donde se muestran los cocteles que sirve el bar, la misma tiene un header con 3 botones que llevan a las otras paginas del proyecto, abajo de todo hay un footer con la direccion del bar, el logo y ademas links a las redes sociales.</p>
 
-##### carousel
+#### carousel
 
 <p> la carta tiene un carousel que tiene todos los tragos que se sirven en el bar(la cracion de las cards esta ligada al consumo de la api <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a>) en la carta hay 100 tragos para ser vistos.</p>
 
-##### especial
+#### especial style = text-decoration = underline
 
 <p>esta seccion es estatica y tiene una descripcion y una foto con el trago que es la especialidad de la casa<p>
    
