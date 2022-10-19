@@ -8,11 +8,15 @@
 
 ## contenido
 <ul>
-   <li><a href = "#resumen">Resumen<a>
+      <li><a href = "#resumen">Resumen<a></li>
+      <li><a href = "#diseño">Diseño Responsive<a></li>
+      <li><a href = "#composicion">composicion del proyecto<a></li>
+      <li><a href = "#api">API<a></li>
+      <li><a href = "#datos">Datos a tener en cuenta<a></li>
 
-### id = "resumen" HOME(index.html)
+###  HOME(index.html)
 
-<p > el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
+<p id = "resumen"> el home es la pagina principal y es la que se encarga de enlazar todas las otras paginas, la misma contiene un header con 2 botones con enlaces que llevan a las paginas de la carta y las reservas respectivamente. abajo tenemos otro boton que lleva a la pagina de ¿quienes somos?.
 abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los cuales en este momento no funcionan por obvias razones) y un icono de map spot, si se clickea en el icono se abrira un modal que contiene el mapa con la direccion(FICTICIA) del bar</p>
 
 
@@ -36,7 +40,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 # DISEÑO RESPONSIVE
 
-<p>el proyecto en distintas partes de sus paginas tiene distintos puntos de corte, se trataron de acaparar la mayor cantidad de pantallas, el proyecto no contempla las pantallas pequeñas como las de los dispoditivos samsumg galaxy fold y tampoco de monitores de mucha resolucion resolucion(4k)</p>
+<p id = "diseño">el proyecto en distintas partes de sus paginas tiene distintos puntos de corte, se trataron de acaparar la mayor cantidad de pantallas, el proyecto no contempla las pantallas pequeñas como las de los dispoditivos samsumg galaxy fold y tampoco de monitores de mucha resolucion resolucion(4k)</p>
 
 ## PUNTOS DE CORTE
 
@@ -49,7 +53,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 
 # COMPOSICION DEL PROYECTO
 
-<p>como ya se menciono antes el proyecto tiene 4 paginas html que se encuentran en la carpeta principal del repositorio</p>
+<p id = "composicion">como ya se menciono antes el proyecto tiene 4 paginas html que se encuentran en la carpeta principal del repositorio</p>
 
 <ul>
    <li>index.html</li>
@@ -101,11 +105,11 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
   
   # API
   
- pp> la api utilizada es  <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a> mas precisamente https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail la cual trae como respuesta los cocteles filtrados por categoria en formato json </p>
+ <p id ="api"> la api utilizada es  <a href =https://www.thecocktaildb.com/>https://www.thecocktaildb.com/</a> mas precisamente https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail la cual trae como respuesta los cocteles filtrados por categoria en formato json </p>
  
  
  # DATOS A TENER EN CUENTA
- <ul>
+ <ul id = "datos">
    <li>el reset.css se saco de https://meyerweb.com/eric/tools/css/reset/ este archivo se utiliza para eliminar todas las propiedades que vienen por defecto en los navegadores</li>
    <li> la fuente utilizada en el proyecto es la Prompt de google fonts https://fonts.google.com/specimen/Prompt?preview.text=star%20drank%20bar&preview.text_type=custom</li>
    <li> los botones del header, home, form y los iconos, tienen transiciones y transformaciones</li>
