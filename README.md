@@ -39,6 +39,8 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
 <ul>
    <li><h3>hasta 640px para celulares &#128241;</h3></li>
    <li><h3>de 640px a 767px para celulares en vertical &#128241;</h3></li>
+   <li><h3>de 767px hasta 1023 para tablets <img src = ![image](https://user-images.githubusercontent.com/100803552/196599488-a862a118-6407-4537-aff7-8b57658eee8f.png)/>
+</h3>
  
  
   
