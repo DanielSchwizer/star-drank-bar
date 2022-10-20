@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 5px;
+}
+
+.barimg {
+  margin: 40px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.about-section {
+  font-family: "Prompt", sans-serif;
+  padding: 60px;
+  text-align: center;
+  margin: 0 10rem;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #cb91b5b2, rgba(255, 0, 0, 0));
+  color: white;
+  letter-spacing: 1px;
+  font-size: large;
+  text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+}
+
+.about-section>h1 {
+  text-transform: uppercase;
+  font-size: larger;
+  padding-bottom: 2.5rem;
+}
+
+.about-section>p {
+  margin: 0 10rem;
+  line-height: 2rem;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

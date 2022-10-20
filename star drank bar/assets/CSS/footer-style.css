@@ -1,10 +1,8 @@
 footer {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 0, 0, 0),
-    #cb91b5b2,
-    rgba(255, 0, 0, 0)
-  );
+  background-image: linear-gradient(to right,
+      rgba(255, 0, 0, 0),
+      #cb91b5b2,
+      rgba(255, 0, 0, 0));
   padding: 30px 0 30px 0;
   margin: auto;
   overflow: hidden;
