@@ -24,6 +24,7 @@ footer {
   font-weight: bolder;
   -webkit-text-fill-color: #42103b;
   -webkit-text-stroke: 0.1px;
+  text-shadow: 0.1em 0.1em 0.3em #e0a2c8;
 }
 
 .content-foo h4 {
