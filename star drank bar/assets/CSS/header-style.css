@@ -56,4 +56,8 @@ hr {
     width: 20rem;
     font-size: larger;
   }
+
+  .button-link:hover {
+    font-size: calc(100% + 25%);
+  }
 }
