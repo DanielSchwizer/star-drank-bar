@@ -48,6 +48,11 @@ html {
   line-height: 2rem;
 }
 
+.about-section > h2 {
+  line-height: 4rem;
+  font-size: x-small;
+}
+
 .row::after {
   content: "";
   clear: both;
