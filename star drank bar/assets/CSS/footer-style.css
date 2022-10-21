@@ -33,13 +33,13 @@ footer {
   margin-bottom: 5px;
 }
 
-.content-foo img {
+.media-logo {
   width: 2rem;
   margin-right: 0.5rem;
   transition: 0.5 all;
 }
 
-.content-foo img:hover {
+.media-logo:hover {
   transform: scale(1.2);
 }
 
