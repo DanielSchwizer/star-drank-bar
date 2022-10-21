@@ -49,7 +49,7 @@ hr {
 
 @media (min-width: 1440px) {
   header {
-    margin: 8rem 0 8rem 0;
+    margin: 0rem 0 5rem 0;
   }
 
   .button-link {
