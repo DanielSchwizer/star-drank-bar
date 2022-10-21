@@ -76,6 +76,11 @@ html {
     line-height: 1.5rem;
   }
 
+  .about-section > h2{
+    margin-top: 1rem;
+    line-height: 1rem;
+  }
+
   .column {
     width: 100%;
     display: block;
