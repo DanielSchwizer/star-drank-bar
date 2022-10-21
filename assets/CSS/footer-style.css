@@ -6,6 +6,7 @@ footer {
   padding: 30px 0 30px 0;
   margin: auto;
   overflow: hidden;
+  text-align: center;
 }
 
 .contenedor-footer {
@@ -13,7 +14,7 @@ footer {
   align-items: center;
   width: 80%;
   justify-content: space-evenly;
-  margin: 0 10rem 0 10rem;
+  margin: 0 7rem 0 7rem;
   padding-bottom: 20px;
   border-bottom: 1px solid #42103b;
 }
@@ -71,5 +72,11 @@ footer {
 @media (min-width: 768px) and (max-width: 1023px) {
   .contenedor-footer {
     margin: 0 2.5rem 0 2.5rem;
+  }
+}
+
+@media(min-width:1440px){
+  .contenedor-footer {
+   margin: 0 10rem 0 10rem;
   }
 }
