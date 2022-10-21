@@ -1,0 +1,20 @@
+body {
+  background-image: url("../IMG/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000922;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c9ada7;
+  border-radius: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserva</title>
+    <link rel="stylesheet" href="./assets/CSS/form/form-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./assets/IMG/favicon-muerte.png" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav-container">
+        <a href="./qsomos.html"
+          ><button class="button-link">¿Quienes Somos?</button></a
+        >
+        <a href="./index.html"><button class="button-link">home</button></a>
+        <a href="./carta.html"><button class="button-link">Bebidas</button></a>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <fieldset class="fieldset-text">
+        <h1 class="form-title">
+          Por favor, complete este formulario para realizar la reserva.
+        </h1>
+        <h3>
+          <form class="form-text" autocomplete="off">
+            <ul class="flex-outer">
+              <li>
+                <label for="first-name">Nombre</label>
+                <input
+                  required
+                  data-tipo="first_name"
+                  pattern="[a-zA-Z ]{1,50}"
+                  type="text"
+                  id="first-name"
+                  placeholder="Ingresá tu Nombre aqui"
+                />
+                <div>
+                  <span class="input-message-error"
+                    >Este campo no es valido</span
+                  >
+                </div>
+              </li>
+              <li>
+                <label for="last-name">Apellido</label>
+                <input
+                  required
+                  data-tipo="last_name"
+                  pattern="[a-zA-Z ]{1,50}"
+                  type="text"
+                  id="last-name"
+                  placeholder="Ingresá tu Apellido aqui"
+                />
+                <span class="input-message-error">Este campo no es valido</span>
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input
+                  required
+                  data-tipo="email"
+                  type="email"
+                  id="email"
+                  placeholder="Ingresá tu email aqui"
+                />
+                <span class="input-message-error">Este campo no es valido</span>
+              </li>
+              <li>
+                <label for="phone">Telefono</label>
+                <input
+                  required
+                  data-tipo="phone"
+                  type="tel"
+                  id="phone"
+                  placeholder="Ingresá tu telefono aqui"
+                  pattern="\d{10}"
+                  minlegth="10"
+                  maxlength="10"
+                />
+                <span class="input-message-error">Este campo no es valido</span>
+              </li>
+              <li>
+                <label for="message">Detalles de reserva</label>
+                <textarea
+                  class="mensaje"
+                  rows="6"
+                  required
+                  data-tipo="text_area"
+                  id="message"
+                  placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"
+                ></textarea>
+                <span class="input-message-error">Este campo no es valido</span>
+              </li>
+              <li>
+                <button type="submit" class="reserva-boton">Reservar</button>
+              </li>
+            </ul>
+          </form>
+        </h3>
+      </fieldset>
+    </main>
+    <footer>
+      <section id="footer">
+        <div class="contenedor-footer">
+          <div class="content-foo">
+            <h4>Sucursal Belgrano</h4>
+            <p>Montañeses 2121</p>
+          </div>
+          <div class="content-foo">
+            <img
+              src="./assets/IMG/favicon-muerte.png"
+              alt="death-star"
+              class="content-icon"
+            />
+          </div>
+          <div class="content-foo">
+            <img
+              src="./assets/IMG/instagram-logo.svg"
+              alt="instagram-logo"
+              class="media-logo"
+            />
+            <img
+              src="./assets/IMG/facebook-logo.svg"
+              alt="facebook"
+              class="media-logo"
+            />
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script type="module" src="./JS/views/form/app.js"></script>
+  </body>
+</html>
