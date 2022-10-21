@@ -14,6 +14,7 @@
       <li><a href = "#composicion">Composicion del proyecto<a></li>
       <li><a href = "#api">API<a></li>
       <li><a href = "#datos">Datos a tener en cuenta<a></li>
+      <li><a href = "#integrantes">Integrantes del proyecto y aportes<a></li>
 
   <h3 id = "resumen">HOME(index.html)</h3>
 
@@ -116,7 +117,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
    <li> la fuente utilizada en el proyecto es la Prompt de google fonts https://fonts.google.com/specimen/Prompt?preview.text=star%20drank%20bar&preview.text_type=custom</li>
    <li> los botones del header, home, form y los iconos, tienen transiciones y transformaciones</li>
 
-<h1 id = "integrantes">INTEGRANTES DEL PROYECTO Y TAREAS</h1>
+<h1 id = "integrantes">INTEGRANTES DEL PROYECTO Y APORTES</h1>
 
 <ul>
    <li><h2>Cecilia Censi<h2>
@@ -143,6 +144,6 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
    </li>
    <li><h2>Maria Belen laresca<h2>
          <ul>
-            <li>base del footer y la seccion especial de las bebidas</li>
+            <li>base del footer y la seccion especial de la carta</li>
          </ul>
    </li>
