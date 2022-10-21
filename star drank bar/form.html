@@ -42,7 +42,6 @@
                   type="text"
                   id="first-name"
                   placeholder="Ingresá tu Nombre aqui"
-                  oninvalid="this.setCustomValidity(' ')"
                 />
                 <div>
                   <span class="input-message-error"
@@ -59,7 +58,6 @@
                   type="text"
                   id="last-name"
                   placeholder="Ingresá tu Apellido aqui"
-                  oninvalid="this.setCustomValidity(' ')"
                 />
                 <span class="input-message-error">Este campo no es valido</span>
               </li>
@@ -94,9 +92,11 @@
                   class="mensaje"
                   rows="6"
                   required
+                  data-tipo="text_area"
                   id="message"
                   placeholder="Cantidad de personas, fecha y hora! (Tambien requerimientos especiales)"
                 ></textarea>
+                <span class="input-message-error">Este campo no es valido</span>
               </li>
               <li>
                 <button type="submit" class="reserva-boton">Reservar</button>

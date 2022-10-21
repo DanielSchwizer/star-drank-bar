@@ -43,6 +43,10 @@ const mensajesDeError = {
     valueMissing: "El campo TELEFONO no puede estar vacío",
     patternMismatch: "El formato requerido es XXXXXXXXXX 10 números",
   },
+
+  text_area:{
+    valueMissing: "Por favor, introduzca los DETALLES de su reserva"
+  }
 };
 
 /**
