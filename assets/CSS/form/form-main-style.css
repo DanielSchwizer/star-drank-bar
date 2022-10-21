@@ -105,6 +105,8 @@ main {
   font-weight: bolder;
 }
 
+
+/* INICIO RESPONSIVE */
 @media screen and (max-width: 640px) {
   main {
     margin: 5rem 2rem 5rem 2rem;

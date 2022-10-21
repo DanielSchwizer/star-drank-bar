@@ -27,6 +27,7 @@
 }
 
 
+/* INICIO RESPONSIVE */
 @media (min-width: 1440px) {
   .logo-container {
     margin: 0 0 5.5rem 0;
