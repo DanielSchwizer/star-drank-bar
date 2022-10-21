@@ -36,7 +36,9 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
   
 <p> esta es la pagina de contacto para hacer reservas en el bar, solamente cuenta con una validacion en js ya que no hay bar al cual contactarse, en cuanto al header   y al footer el funcionamiento es el mismo</p>
 
-### ¿QUIENES SOMOS?(.html)
+### ¿QUIENES SOMOS?(qsomos.html)
+
+<p>pagina estatica donde se puede ver una seccion para conocer mas el local</p>
 
 # DISEÑO RESPONSIVE
 
@@ -59,7 +61,7 @@ abajo de quienes somos hay 3 iconos con enlaces, estan los de redes sociales(los
    <li>index.html</li>
    <li>carta.html</li>
    <li>form.html</li>
-   <li>.html</li>
+   <li>qsomos.html</li>
 </ul>
 
 <p>ademas se encuentran las carpetas JS y assets</p>
