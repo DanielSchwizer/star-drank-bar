@@ -35,6 +35,8 @@ hr {
   margin-bottom: 4rem;
 }
 
+
+/* INICIO RESPONSIVE */
 @media (max-width: 640px) {
   .nav-container {
     flex-direction: column;

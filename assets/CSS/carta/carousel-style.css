@@ -99,6 +99,8 @@
   text-align: center;
 }
 
+
+/* INICIO RESPONSIVE */
 @media (max-width: 640px) {
   .carousel-wrapper {
     width: 85%;

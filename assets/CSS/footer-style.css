@@ -49,6 +49,8 @@ footer {
   width: 5rem;
 }
 
+
+/* INICIO RESPONSIVE */
 @media (max-width: 640px) {
   .contenedor-footer {
     flex-direction: column;
