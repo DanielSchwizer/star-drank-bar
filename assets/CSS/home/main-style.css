@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.logo-img {
+  width: 60%;
+  height: 60%;
+ }
+
 .link-img {
   width: 2rem;
   transition: 0.5s all;
