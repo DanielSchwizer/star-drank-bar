@@ -44,8 +44,8 @@ const mensajesDeError = {
     patternMismatch: "El formato requerido es XXXXXXXXXX 10 números",
   },
 
-  text_are:{
-    valueMissing: "por favor, introduzca los DETALLES de su reserva"
+  text_area:{
+    valueMissing: "Por favor, introduzca los DETALLES de su reserva"
   }
 };
 
