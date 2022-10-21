@@ -13,7 +13,7 @@ footer {
   align-items: center;
   width: 80%;
   justify-content: space-evenly;
-  margin: auto;
+  margin: 0 10rem 0 10rem;
   padding-bottom: 20px;
   border-bottom: 1px solid #42103b;
 }
@@ -52,6 +52,7 @@ footer {
   .contenedor-footer {
     flex-direction: column;
     align-items: center;
+    margin: auto;
   }
 
   .content-foo {
@@ -64,5 +65,11 @@ footer {
 
   .media-logo{
     margin: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contenedor-footer {
+    margin: 0 2.5rem 0 2.5rem;
   }
 }
