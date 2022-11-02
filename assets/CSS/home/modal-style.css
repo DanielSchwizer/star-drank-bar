@@ -39,6 +39,8 @@
   cursor: pointer;
 }
 
+
+/* INICIO RESPONSIVE */
 @media screen and (max-width: 640px) {
   .adress-container {
     overflow: hidden;
