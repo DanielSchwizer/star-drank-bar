@@ -59,6 +59,8 @@ html {
   display: table;
 }
 
+
+/* INICIO RESPONSIVE */
 @media screen and (max-width: 640px) {
   .about-section {
     padding: 10px;
